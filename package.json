@@ -1,38 +1,21 @@
 {
-  "name": "svgo",
+  "name": "svgo-sync",
   "version": "0.5.1",
-  "description": "Nodejs-based tool for optimizing SVG vector graphics files",
+  "description": "a sync version package for svgo",
   "keywords": [
     "svgo",
     "svg",
     "optimize",
     "minify"
   ],
-  "homepage": "https://github.com/svg/svgo",
+  "homepage": "https://github.com/purplebamboo/svgo-sync.git",
   "bugs": {
-    "url": "https://github.com/svg/svgo/issues",
-    "email": "kir@soulshine.in"
+    "url": "https://github.com/purplebamboo/svgo-sync/issues",
+    "email": "xhzhuweikang@163.com"
   },
-  "author": {
-    "name": "Kir Belevich",
-    "email": "kir@soulshine.in",
-    "url": "https://github.com/deepsweet"
-  },
-  "contributors": [
-    {
-      "name": "Sergey Belov",
-      "email": "peimei@ya.ru",
-      "url": "http://github.com/arikon"
-    },
-    {
-      "name": "Lev Solntsev",
-      "email": "lev.sun@ya.ru",
-      "url": "http://github.com/GreLI"
-    }
-  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/svg/svgo.git"
+    "url": "git://github.com/purplebamboo/svgo-sync.git"
   },
   "main": "./lib/svgo.js",
   "bin": {
@@ -64,11 +47,5 @@
   },
   "engines": {
     "node": ">=0.10.0"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://raw.github.com/svg/svgo/master/LICENSE"
-    }
-  ]
+  }
 }

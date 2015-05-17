@@ -22,6 +22,12 @@ so i just change the sax-js to htmlparser2 which support parse svg synchronous.
 
 # use
 
+install:
+
+```
+npm install svgo-sync
+```
+
 just add one more api:
 
 
@@ -35,6 +41,8 @@ var result = svgo.optimizeSync(str);
 console.log(result)
 
 ```
+
+
 
 
 
